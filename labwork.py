@@ -1,4 +1,5 @@
-def avg(*args):
-    print(sum(args) / len(args))
+#2
+def fun(*args):
+    print(sorted(args, key=len))
 
-avg(1,2,3,4,5)
+fun('asd', 'asdd', 'asd', 'asdssd')
