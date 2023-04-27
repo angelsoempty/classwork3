@@ -11,3 +11,4 @@ dict3 = {'c': 5, 'd': 6}
 
 result_dict = fun(dict1, dict2, dict3)
 print(result_dict)
+''
