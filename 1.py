@@ -9,7 +9,6 @@ black_hole(234, 'Earth', 'rusnya', 'time', 1243)
 
 def black_hole_named(**kwargs):
         print(type(kwargs))
-        print(kwargs)
-        for argument in kwargs:
-            print(argument)
+        for key, value in kwargs.items():
+            print(key, value)
 black_hole_named(name='Gleb', planet='Earth', number = 5)
