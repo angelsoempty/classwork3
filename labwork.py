@@ -1,5 +1,5 @@
-#2
+#3
 def fun(*args):
-    print(max(args, key=len))
+    print(' '.join((args)))
 
-fun('asd', 'asdd', 'asd', 'asdssd')
+fun('asd','asdasd','123123')
